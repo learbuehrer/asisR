@@ -1,7 +1,9 @@
 # asisR
 
 This repository contains the `R` code used for the analyses presented in the paper 
-"Disentangling Determinants of One-Year Functional Outcome in Incidentally Detected Solitary Intracranial Aneurysms"."
+"Disentangling Determinants of One-Year modified Rankin Scale in Patients with Incidentally Detected Solitary Intracranial Aneurysms".
+
+
 ## Environment Setup
 
 All package dependencies are managed using `renv`. To restore the environment, run the following commands in R:
