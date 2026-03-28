@@ -28,7 +28,6 @@ The repository includes the following files:
 - `renv/`: A directory containing the renv environment files to manage package dependencies.
 
 - `scripts/`: A directory containing the R scripts used for data analysis and figure generation:
-  - `A_synthetic_dataset.R`: Script for preparing the synthetic data set.
   - `00_functions.R`: Script containing all functions used in the analysis.
   - `00_mcmc_functions.R`: Script containing all functions related to MCMC sampling.
   - `00_imputation.R`: Script for performing the multiple imputation on the synthetic data set.
