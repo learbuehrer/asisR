@@ -21,11 +21,12 @@ The repository includes the following files:
 - `data/`: A directory containing the synthetic data used to reproduce the analysis (`synthetic_dataset.rds`). 
            As well as the matrices containing the applied prior knowledge for the creation of all ABN models, i.e., a priori restricting and enforcing of arcs (`prior_knowledge.xlxs`).
            
+- `renv.lock`: A file containing the R package versions used in this project.
+
 - `results/`: A directory where the output results and figures are saved. 
               With a subfolder for the resulting model fits (`fits`) and the outputs for the mcmcABN runs for the two models (`recovery` and `management_effect`).
               As the mRS at Baseline was imputed, there are separate subfolders for the results of each imputed data set (`imp1` to `imp10` and `consensus`) in the later folder.
 
-- `renv/`: A directory containing the renv environment files to manage package dependencies.
 
 - `scripts/`: A directory containing the R scripts used for data analysis and figure generation:
   - `00_functions.R`: Script containing all functions used in the analysis.
