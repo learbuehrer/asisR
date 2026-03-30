@@ -24,7 +24,7 @@ The repository includes the following files:
 - `renv.lock`: A file containing the R package versions used in this project.
 
 - `results/`: A directory where the output results and figures are saved. 
-              With a subfolder for the resulting model fits (`fits`) and the outputs for the mcmcABN runs for the two models (`recovery` and `management_effect`).
+              With a subfolder for the outputs for the mcmcABN runs for the two models (`recovery` and `management_effect`).
               As the mRS at Baseline was imputed, there are separate subfolders for the results of each imputed data set (`imp1` to `imp10` and `consensus`) in the later folder.
 
 
